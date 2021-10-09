@@ -45,7 +45,7 @@ data_file = os.path.join(working_directory, params["tex_images_path"], f"{name}.
 # retrieve experiments_filenames
 all_experiments_filenames = [
     f
-    for f in os.listdir(params["results_storage_dir"])
+    for f in os.listdir(os.path.join(working_directory, params["results_storage_dir"]))
     if os.path.isfile(os.path.join(working_directory, params["results_storage_dir"], f))
 ]
 experiments_filenames = [

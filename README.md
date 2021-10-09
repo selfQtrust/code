@@ -67,7 +67,7 @@ For example, save the files in the figures folder corresponding to the last expe
 (trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ mv simulate_sanchez_dunning_oc_60.json simulate_sanchez_dunning_oc_60_backup.json
 user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ mv simulate_sanchez_dunning_oc_60.pdf simulate_sanchez_dunning_oc_60_backup.pdf
 user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ cd ../experiments/
-(trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ python selfq-trust-expe.py -i expe_params.json -n 8
+(trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ python result-expe-simulation-oc.py
 ```
 
 If everything worked well, result is in ~/projects/SelfQtrust-ICLR2022/code/figures/simulate_sanchez_dunning_oc.pdf.
