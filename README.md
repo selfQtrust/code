@@ -100,6 +100,6 @@ SelfQtrust-ICLR2022
 │
 └───datasets (store computed datasets from experiments)
 │
-└───datasetsfigures (store generated figures from computed datasets)
+└───figures (store generated figures from computed datasets)
 
 ```
