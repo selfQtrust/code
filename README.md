@@ -88,7 +88,7 @@ SelfQtrust-ICLR2022
 │   │   agent.py (agent implementation)
 │   │   env.py (underlying MDP environment)
 │   │   maze.py (maze implementation)
-│   │   qlearning.py (QLearning algorithm + QTrust algorithm extending QLearning)
+│   │   qlearning.py (a basic QLearning algorithm + QTrust algorithm extending QLearning)
 │   │   storage.py
 │   │   trust_env.py (trust environment)
 │
