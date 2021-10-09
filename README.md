@@ -63,9 +63,11 @@ Output figures (\*.pdf) as well as aggregating datasets used to plot them (\*.pk
 
 For example, save the files in the figures folder corresponding to the last experiment and run the result-expe-simulation-oc.py script to re-generate the figure 4 of the paper with the results you computed earlier:
 ```console
-(trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ mv simulate_sanchez_dunning_oc_60.json simulate_sanchez_dunning_oc_60_backup.json
-user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ mv simulate_sanchez_dunning_oc_60.pdf simulate_sanchez_dunning_oc_60_backup.pdf
-user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ mv simulate_sanchez_dunning_oc_60.pkl simulate_sanchez_dunning_oc_60_backup.pkl
+(trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ cd ../figures/
+(trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ mv simulate_sanchez_dunning_oc_60.json simulate_sanchez_dunning_oc_60_backup.json
+user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ mv simulate_sanchez_dunning_oc_60.pdf simulate_sanchez_dunning_oc_60_backup.pdf
+user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ mv simulate_sanchez_dunning_oc_60.pkl simulate_sanchez_dunning_oc_60_backup.pkl
+user@bar:~/projects/SelfQtrust-ICLR2022/code/figures$ cd ../experiments/
 (trustenv) user@bar:~/projects/SelfQtrust-ICLR2022/code/experiments$ python selfq-trust-expe.py -i expe_params.json -n 8
 ```
 
