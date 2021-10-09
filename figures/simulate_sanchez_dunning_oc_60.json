@@ -1,0 +1,1 @@
+{"expe_ID": [0], "env_ID": [980.0], "number_of_try": [60.0], "episodes_uc": [60.0], "learning_rate_uc": [0.1], "discount_uc": [0.99], "episodes_trust": [60.0], "learning_rate_trust": [0.05], "discount_trust": [0.99]}
